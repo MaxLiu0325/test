@@ -70,7 +70,7 @@ const EditPanel = ({ selectedComponent, onUpdate }) => {
 
   return (
     <div className="edit-panel">
-      <h3>{selectedComponent.type === ItemTypes.TEXT ? '文字编辑' : '圖片编辑'}</h3>
+      <h3>{selectedComponent.type === ItemTypes.TEXT ? '文字編輯' : '圖片編輯'}</h3>
       {selectedComponent.type === ItemTypes.TEXT && (
         <input
           type="text"
